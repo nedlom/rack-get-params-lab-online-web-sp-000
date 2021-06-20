@@ -20,6 +20,8 @@ class Application
           resp.write "#{item}\n"
         end
       end
+      
+      
     
     elsif req.path.match(/search/)
       search_term = req.params["q"]
