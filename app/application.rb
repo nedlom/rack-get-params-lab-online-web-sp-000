@@ -28,6 +28,7 @@ class Application
         if @@items.include(item)
           @@cart << item
         else
+          resp.write 
       binding.pry
 
     else
